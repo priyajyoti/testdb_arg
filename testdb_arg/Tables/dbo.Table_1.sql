@@ -4,3 +4,11 @@ CREATE TABLE [dbo].[Table_1]
 [Wage] [money] NULL
 ) ON [PRIMARY]
 GO
+
+
+INSERT INTO dbo.Table_1
+        ([Emp Name],[Wage])
+VALUES
+('Tom', 100); 
+
+SELECT * FROM dbo.Table_1
