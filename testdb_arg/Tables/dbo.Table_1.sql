@@ -9,6 +9,7 @@ GO
 INSERT INTO dbo.Table_1
         ([Emp Name],[Wage])
 VALUES
-('Tom', 100); 
+('Tom', 100);
+('Jerry', 200);
 
 SELECT * FROM dbo.Table_1
