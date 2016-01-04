@@ -4,3 +4,8 @@ CREATE TABLE [dbo].[Table_2]
 [wage2] [money] NULL
 ) ON [PRIMARY]
 GO
+INSERT INTO dbo.Table_2
+        ( emp2, wage2 )
+VALUES  ( 'tom3', 
+			700  
+          )
